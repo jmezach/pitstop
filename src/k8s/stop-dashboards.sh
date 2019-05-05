@@ -1,2 +1,2 @@
 #!/bin/bash
-kill $(ps aux | grep 'kubectl' | awk '{print $1}')
+kill $(ps aux | grep 'kubectl' | awk '{print $2}')
